@@ -1,0 +1,9 @@
+project: sha3iuf
+target: sha3iuf
+
+image: ghcr.io/ebell495/sha3iuf:latest
+duration: 300
+
+cmds:
+    - cmd: ./sha3fuzz
+      libfuzzer: true
